@@ -1,5 +1,5 @@
-// Generated from /Users/wangxiaolei/Git/p/Lei/src/main/java/wang/xiaolei/lei/Hello.g4 by ANTLR 4.7.2
-package wang.xiaolei.lei;
+// Generated from /Users/wangxiaolei/Git/p/tutorials/antlr/src/main/java/wang/xiaolei/antlr4/helloworld/Hello.g4 by ANTLR 4.7.2
+package wang.xiaolei.antlr4.helloworld;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

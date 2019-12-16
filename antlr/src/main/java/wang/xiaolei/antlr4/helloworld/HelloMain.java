@@ -1,21 +1,24 @@
-package wang.xiaolei.lei;
+package wang.xiaolei.antlr4.helloworld;
+
 
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 
+
 /**
- * 作者： wangxiaolei
- * 时间： 2019/12/12
- * 微信公众号：从入门到精通
- * 微信：chinesedream2
+ * @Description: TODO
+ * @Author: wangxiaolei
+ * @Date: 2019/12/12
+ * @WeChat：chinesedream2
+ * @微信公众号：从入门到精通
  */
 
 public class HelloMain {
     public static void main(String ...args) {
 
-        CharStream input = CharStreams.fromString("hell\tworld");
+        CharStream input = CharStreams.fromString("hello\tworld");
 
         // 构造词法分析器
         HelloLexer lexer=new HelloLexer(input);
@@ -31,5 +34,8 @@ public class HelloMain {
 
         myHelloVisitor.visit(tree);
 
+        System.out.println("结果："+tree.toStringTree(parser));
+
     }
+
 }

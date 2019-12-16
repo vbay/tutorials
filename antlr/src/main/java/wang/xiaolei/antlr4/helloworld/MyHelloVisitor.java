@@ -1,9 +1,10 @@
-package wang.xiaolei.lei;
+package wang.xiaolei.antlr4.helloworld;
 
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.RuleNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
+
 
 /**
  * 作者： wangxiaolei
